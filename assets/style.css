@@ -1,17 +1,19 @@
-body{
-	background-image: url(concrete-texture.png);
+body {
+    background-image: url(concrete-texture.png);
 }
-#header{
-	border:0px;
-	margin:0px;
-	padding:0px;
-	background-color: #ffffff;
-	width: 100%;
-	height: auto;
-	float: left;
-	border-bottom: 2px solid lightgray;
+
+#header {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 2px solid lightgray;
 }
-#portfolio_name{
+
+#portfolio_name {
     border: 0px;
     margin: 0px 0px 0px 13%;
     background-color: #4aaaa5;
@@ -24,7 +26,8 @@ body{
     text-align: center;
     padding: 30px;
 }
-#menu{
+
+#menu {
     padding: 30px;
     height: 30px;
     float: right;
@@ -35,41 +38,48 @@ body{
     justify-content: space-between;
     width: 280px;
 }
-a{
-	color:#777777;
-	text-decoration: none;
+
+a {
+    color: #777777;
+    text-decoration: none;
 }
-.main_section{
+
+.main_section {
     border: 0px;
     padding: 40px;
     clear: both;
 }
-#main_content{
-	border: 0px;
+
+#main_content {
+    border: 0px;
     margin: 0px 0px 0px 11%;
     padding: 45px;
     background-color: white;
     width: 650px;
     float: left;
 }
-#about_img{
-	width: 200px;
-	height:200px;
-	float: left;
-	padding: 10px
+
+#about_img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px
 }
-p{
-font-family: arial;
-font-size: 14px;
-text-align: justify;
-line-height: 185%;
+
+p {
+    font-family: arial;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 185%;
 }
-h1{
-	font-family: arial;
-	font-size: 26px;
-	color: #4aaaa5;
+
+h1 {
+    font-family: arial;
+    font-size: 26px;
+    color: #4aaaa5;
 }
-#contact{
+
+#contact {
     background-color: white;
     width: 251px;
     float: left;
@@ -78,8 +88,8 @@ h1{
     padding: 37px;
 }
 
-#icons_section{
-	display: flex;
+#icons_section {
+    display: flex;
     width: 153px;
     justify-content: space-between;
     border: 0px;
@@ -87,25 +97,28 @@ h1{
     padding: 4% 0% 0% 18%;
 }
 
-#portfolio_container{
-	border: 0px;
+#portfolio_container {
+    border: 0px;
     margin: 0px 0px 0px 11%;
     padding: 45px;
     background-color: white;
     width: 650px;
     float: left;
 }
-#picture_display{
-display: flex;
+
+#picture_display {
+    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 0px 0px 0px 45px;
 }
-.picturebox{
-	margin: 12px;
-	position: relative;
+
+.picturebox {
+    margin: 12px;
+    position: relative;
 }
-.tag{
+
+.tag {
     position: absolute;
     width: 214px;
     height: 22px;
@@ -118,8 +131,8 @@ display: flex;
     top: 116px;
 }
 
-#form_container{
-	border: 0px;
+#form_container {
+    border: 0px;
     margin: 0px 0px 0px 11%;
     padding: 45px;
     background-color: white;
@@ -129,21 +142,23 @@ display: flex;
     color: gray;
 }
 
-input[type=text]{
+input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     width: 95%;
     padding: 15px;
     font-size: 15px;
 }
-input[type=email]{
+
+input[type=email] {
     margin: 8px 0;
     box-sizing: border-box;
     width: 95%;
     padding: 15px;
     font-size: 15px;
 }
-input[type=submit]{
+
+input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     font-size: 19px;
@@ -152,7 +167,8 @@ input[type=submit]{
     padding: 13px 36px;
     border-radius: 7px;
 }
-.memo{
+
+.memo {
     margin: 8px 0;
     box-sizing: border-box;
     width: 95%;
@@ -161,7 +177,8 @@ input[type=submit]{
     height: 150px;
     border-color: lightgray;
 }
-#Footer{
+
+#Footer {
     padding: 30px 0px 0px 0px;
     background-color: #666666;
     width: 100%;
@@ -176,75 +193,82 @@ input[type=submit]{
     border-style: solid;
     margin: 2% 0px 0px 0px;
 }
-@media screen and (max-width: 1313px){
-    #contact{
-    margin: 0px 0px 0px 11%;
-    width: 666px;
 
-}
-}
-@media  screen and (max-width: 768px) {
-    #portfolio_name{
-    margin:unset;
-     width: 100%;
-}
-    #menu{
-    padding: 3%;
-    float: unset;
-}
-#main_content {
-    margin: unset;
-    padding: 45px;
-    width: auto;
-    float: left;
-}
+@media screen and (max-width: 1313px) {
     #contact {
-    margin: 0px 0px 0px 0%;
-    width: 86%;
+        margin: 0px 0px 0px 11%;
+        width: 666px;
+    }
 }
- #form_container{
-    margin: unset;
-    padding: 7%;
-    width:84%;
-}
-input[type=email]{
-    width: 85%;
 
+@media screen and (max-width: 768px) {
+    #portfolio_name {
+        margin: unset;
+        width: 100%;
+    }
+    #menu {
+        padding: 3%;
+        float: unset;
+    }
+    #main_content {
+        margin: unset;
+        padding: 45px;
+        width: auto;
+        float: left;
+    }
+    #portfolio_container {
+        margin: unset;
+        padding: 3%;
+        background-color: white;
+        width: auto;
+    }
+    #contact {
+        margin: 0px 0px 0px 0%;
+        width: 86%;
+    }
+    #form_container {
+        margin: unset;
+        padding: 7%;
+        width: 84%;
+    }
+    input[type=email] {
+        width: 85%;
+    }
+    .memo {
+        width: 85%;
+    }
+    input[type=text] {
+        width: 85%;
+    }
 }
-.memo{
-    width: 85%;
-}
-input[type=text] {
-    width: 85%;
-}
-}
+
 @media screen and (max-width: 640px) {
-    #portfolio_name{
-    margin: unset;
-    padding: 2%;
-    width: 100%;
-}
-    #menu{
-    padding: 3%;
+    #portfolio_name {
+        margin: unset;
+        padding: 2%;
+        width: 100%;
+    }
+    #menu {
+        padding: 3%;
     }
     #about_img {
-    width: 90%;
-    height: auto;
-    float: unset;
-    padding: 10px;
+        width: 90%;
+        height: auto;
+        float: unset;
+        padding: 10px;
     }
-.main_section {
-    border: 0px;
-    padding: unset;
-    clear: both;
+    .main_section {
+        border: 0px;
+        padding: unset;
+        clear: both;
     }
-    #contact{
-    margin:unset;
-    width: 100%;
-}   
-     #form_container{
-    margin: unset;
-    padding: 7%;
-    width:100%;
-} 
+    #contact {
+        margin: unset;
+        width: 100%;
+    }
+    #form_container {
+        margin: unset;
+        padding: 7%;
+        width: 100%;
+    }
 }
