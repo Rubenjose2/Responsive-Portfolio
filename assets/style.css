@@ -195,7 +195,6 @@ input[type=submit]{
 #main_content {
     margin: unset;
     padding: 45px;
-    background-color: white;
     width: auto;
     float: left;
 }
@@ -203,9 +202,21 @@ input[type=submit]{
     margin: 0px 0px 0px 0%;
     width: 86%;
 }
+ #form_container{
+    margin: unset;
+    padding: 7%;
+    width:84%;
+}
+input[type=email]{
+    width: 85%;
 
-style.css:72
-#c
+}
+.memo{
+    width: 85%;
+}
+input[type=text] {
+    width: 85%;
+}
 }
 @media screen and (max-width: 640px) {
     #portfolio_name{
@@ -231,4 +242,9 @@ style.css:72
     margin:unset;
     width: 100%;
 }   
+     #form_container{
+    margin: unset;
+    padding: 7%;
+    width:100%;
+} 
 }
